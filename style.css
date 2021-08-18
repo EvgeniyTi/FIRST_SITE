@@ -1640,6 +1640,37 @@ h4 {
   margin-right: 20px;
 }
 
+.registration__loyalty {
+  width: 652px;
+  padding: 64px 0 277px 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.registration__loyalty--heading {
+  margin-bottom: 22px;
+}
+
+.registration__loyalty--text {
+  margin-bottom: 22px;
+}
+
+.registration__loyalty--li:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.registration__loyalty--list {
+  list-style: none;
+}
+
+.registration__loyalty--li::before {
+  content: url(img/check.svg) " ";
+}
+
 .checkbox {
   display: -webkit-box;
   display: -ms-flexbox;

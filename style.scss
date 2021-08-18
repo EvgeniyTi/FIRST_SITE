@@ -1469,13 +1469,45 @@
     &--arrow {
       margin-left: 20px;
     }
-
-
   }
 
   &__checkbox {
     margin-right: 20px;
   }
+
+
+  &__loyalty {
+    width: 652px;
+    padding: 64px 0 277px 0;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+    &--heading {
+      margin-bottom: 22px;
+    }
+
+    &--text {
+      margin-bottom: 22px;
+    }
+
+    &--li:not(:last-child) {
+      margin-bottom: 16px;
+    }
+
+    &--list {
+      list-style: none;
+    }
+
+    &--li::before {
+      content: url(img/check.svg)" ";
+    }
+  }
+
+  
 }
 
 .checkbox {
