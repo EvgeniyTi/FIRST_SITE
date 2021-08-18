@@ -1419,5 +1419,66 @@
 
   &__form {
     display: grid;
+    margin: 64px 0  96px 0;
+
+    &--text {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 19px;
+      color: #222222;
+      margin-bottom: 20px;
+    }
+
+    &--placeholder {
+      width: 360px;
+      padding: 13px 0 16px 17px;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 16px;
+      border: 1px solid #A4A4A4;
+      margin-bottom: 20px;
+    }
+
+    &--text-subform {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 16px;
+      color: #B1B1B1;
+      width: 360px;
+      margin-bottom: 39px;
+    }
+
+    &--botton {
+      width: 150px;
+      background: #F16D7F;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      color: #FFFFFF;
+      padding: 16px 0 17px 29px;
+    }
+
+    &--arrow {
+      margin-left: 20px;
+    }
+
+
   }
+
+  &__checkbox {
+    margin-right: 20px;
+  }
+}
+
+.checkbox {
+  display: flex;
+  margin-bottom: 34px;
 }
