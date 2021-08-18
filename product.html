@@ -126,14 +126,21 @@
         </div>
     </header>
     <main>
-        <section class="navigacia">
-            <div class="navi container">
-                <div class="nav_text">
+        <section class="navigation">
+            <div class="nav container">
+                <div class="nav__text">
                     <p>NEW ARRIVALS</p>
                 </div>
-                <div class="bread_crumbs">
-                    <p> <a href="index.html">HOME</a> / MEN / <span class="nav_decor">NEW ARRIVALS</span></p>
-                </div>
+                <nav class="bread_crumbs">
+                    <!-- <p> <a href="index.html">HOME</a> / MEN / <span class="nav_decor">NEW ARRIVALS</span></p> -->
+                    <ul class="bread_crumbs__list">
+                        <li class="bread_crumbs__link"><a href="index.html">HOME</a></li>
+                        <li class="bread_crumbs__backslash"> / </li>
+                        <li class="bread_crumbs__link"><a href="catalog.html"></a>MEN</li>
+                        <li class="bread_crumbs__backslash"> / </li>
+                        <li class="bread_crumbs__link"><a><span class="nav_decor">NEW ARRIVALS</span></a></li>
+                    </ul>
+                </nav>
             </div>
         </section>
         <section>
@@ -141,14 +148,14 @@
                 <img class="slider__img" src="img/slider.jpg" alt="slide">
                 <button class="slider__btn slider__left">
                     <svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="strelka"
+                        <path class="pointer"
                             d="M12.6998 3.7499L4.9498 11.4999L12.6998 19.2499L11.1498 22.3499L0.299805 11.4999L11.1498 0.649902L12.6998 3.7499Z"
                             fill="black" />
                     </svg>
                 </button>
                 <button class="slider__btn slider__right"> <svg width="13" height="23" viewBox="0 0 13 23" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
-                        <path class="strelka"
+                        <path class="pointer"
                             d="M0.299805 19.2499L8.0498 11.4999L0.299805 3.7499L1.8498 0.649902L12.6998 11.4999L1.8498 22.3499L0.299805 19.2499Z"
                             fill="black" />
                     </svg> </button>

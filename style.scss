@@ -901,18 +901,18 @@
   
   /* ___Catalog_navigacia */
   
-  .navigacia  {
+  .navigation {
     background-color: #F8F3F4;
     
   }
   
-  .navi {
+  .nav {
     display: flex;
     justify-content: space-between;
   
   }
   
-  .nav_text {
+  .nav__text {
     font-size: 24px;
     line-height: 29px;
     color: #F16D7F;
@@ -925,6 +925,22 @@
     color: #636363;
     margin-top: 66px;
     margin-bottom: 66px;
+
+    &__list {
+      text-decoration: none;
+      list-style: none;
+      display: flex;
+    }
+
+    &__backslash {
+        margin: 0 5px 0 5px;
+    }
+
+    &__link > a {
+      color: #636363 !important;
+    }
+
+   
     
   }
   
@@ -935,6 +951,8 @@
   .bread_crumbs > p > a {
     color: #636363 !important;
   }
+
+  // =====Navigation=====
   
   .filter {
     width: 360px;
@@ -1136,11 +1154,11 @@
 
   }
 
-  .strelka:hover {
+  .pointer:hover {
     fill: #F16D7F;
   }
 
-  .strelka:active {
+  .pointer:active {
     fill: #F16D7F;
   }
 
