@@ -1571,4 +1571,18 @@ h4 {
 .card--decor {
   color: #F16D7F;
 }
+
+.registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.registration__form {
+  display: -ms-grid;
+  display: grid;
+}
 /*# sourceMappingURL=style.css.map */

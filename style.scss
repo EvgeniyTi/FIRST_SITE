@@ -1411,3 +1411,13 @@
   }
 
 
+// =========Registration==========
+
+.registration {
+  display: flex;
+  justify-content: space-between;
+
+  &__form {
+    display: grid;
+  }
+}
