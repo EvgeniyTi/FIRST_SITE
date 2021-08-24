@@ -468,6 +468,28 @@
     }
 
 
+  .cart-btn__cart {
+    position: relative;
+  }
+ 
+
+  
+  
+  
+  .cart-btn__items {
+    background-color: #F16D7F;
+    border-radius: 8px 8px 8px 8px;
+    width: 19px;
+    height: 19px;
+    color: #fff;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+  }
+  
+
+
+
 
 
   .content {
@@ -1515,3 +1537,16 @@
   display: flex;
   margin-bottom: 34px;
 }
+
+
+//____Index____table_____media
+
+@media (max-width: 768px) {
+  .page-header__wrp-btn {
+    margin-left: 32px;
+    margin-right: 52px;
+  }
+
+
+}
+
