@@ -7,7 +7,6 @@
 }
 
 .container {
-  width: 100%;
   max-width: 1160px;
   margin: 0 auto;
   padding: 0 10px;
@@ -150,9 +149,6 @@
 
 /* === end page-header-search-form === */
 /* === mobile menu === */
-/* .menu {
-    
-  } */
 .menu-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1690,6 +1686,75 @@ h4 {
   .page-header__wrp-btn {
     margin-left: 32px;
     margin-right: 52px;
+  }
+  .content {
+    max-height: 386px;
+  }
+  .content__wrap {
+    background-image: url(/img/man_index_table.png);
+    background-position: -10px;
+    padding-right: 50px;
+  }
+  .content__text {
+    max-width: 283px;
+  }
+  .content__decor1 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .content__decor2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .content__decor {
+    line-height: 52px;
+    font-size: 44px;
+  }
+  .gallery__img_1 {
+    margin: 20px 16px 19px 14px;
+    max-width: 230px;
+    max-height: 167px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/1_img_grad.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/1_img_grad.png);
+  }
+  .gallery__img_2 {
+    margin: 20px 14px 19px 0;
+    max-width: 230px;
+    max-height: 167px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/2_img_grad.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/2_img_grad.png);
+  }
+  .gallery__img_3 {
+    margin: 20px 14px 19px 0;
+    max-width: 230px;
+    max-height: 167px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/3_img_grad.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/3_img_grad.png);
+  }
+  .gallery__img_4 {
+    max-width: 734px;
+    max-height: 116px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/4_img_grad.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/4_img_grad.png);
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .items {
+    margin: 155px 9px 65px 9px;
+  }
+  .gain {
+    padding: 48px 0 16px 0;
+    text-align: -webkit-center;
+  }
+  .gain__cards {
+    display: block;
+  }
+  .footer__gain {
+    margin-bottom: 48px;
+  }
+  .footer__wrap {
+    display: block;
+    text-align: -webkit-center;
   }
 }
 /*# sourceMappingURL=style.css.map */
