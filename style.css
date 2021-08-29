@@ -1756,5 +1756,80 @@ h4 {
     display: block;
     text-align: -webkit-center;
   }
+  .contact {
+    padding-top: 54px;
+    padding-bottom: 140px;
+  }
+  .overview {
+    margin-bottom: 48px;
+  }
+}
+
+@media (max-width: 375px) {
+  .page-header button {
+    display: none;
+  }
+  .page-header--left {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .content__wrap {
+    background-image: none;
+    padding-right: 10px;
+  }
+  .content {
+    max-height: 363px;
+  }
+  .content__decor {
+    line-height: 45px;
+    font-size: 38px;
+  }
+  .content__decor1,
+  .content__decor2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .gallery {
+    padding-top: 64px;
+  }
+  .gallery__img_1 {
+    max-width: 343px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/1girl.png);
+  }
+  .gallery__img_2 {
+    max-width: 343px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/2man.png);
+    margin-left: 14px;
+  }
+  .gallery__img_3 {
+    max-width: 343px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/3kids.png);
+    margin-left: 14px;
+  }
+  .gallery__img_4 {
+    margin-top: 18px;
+  }
+  .items {
+    margin: 64px 0 97px 0;
+  }
+  .overview__text {
+    max-width: 343px;
+  }
+  .form__text {
+    max-width: 271px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .contact {
+    padding-bottom: 109px;
+  }
+  .form__decor {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .footer__position {
+    display: table;
+  }
 }
 /*# sourceMappingURL=style.css.map */
