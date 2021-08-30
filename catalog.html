@@ -126,14 +126,21 @@
         </div>
     </header>
     <main>
-        <section class="navigacia">
-            <div class="navi container">
-                <div class="nav_text">
+        <section class="navigation">
+            <div class="nav container">
+                <div class="nav__text">
                     <p>NEW ARRIVALS</p>
                 </div>
-                <div class="bread_crumbs">
-                    <p> <a href="index.html">HOME</a> / MEN / <span class="nav_decor">NEW ARRIVALS</span>></p>
-                </div>
+                <nav class="bread_crumbs">
+                    <!-- <p> <a href="index.html">HOME</a> / MEN / <span class="nav_decor">NEW ARRIVALS</span></p> -->
+                    <ul class="bread_crumbs__list">
+                        <li class="bread_crumbs__link"><a href="index.html">HOME</a></li>
+                        <li class="bread_crumbs__backslash"> / </li>
+                        <li class="bread_crumbs__link"><a href="catalog.html">MEN</a></li>
+                        <li class="bread_crumbs__backslash"> / </li>
+                        <li class="bread_crumbs__link"><a><span class="nav_decor">NEW ARRIVALS</span></a></li>
+                    </ul>
+                </nav>
             </div>
         </section>
         <section class="items_catalog container">
