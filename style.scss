@@ -791,24 +791,41 @@
     font-size: 14px;
     line-height: 17px;
     color: #636363;
-    margin-top: 66px;
-    margin-bottom: 66px;
+    // margin-top: 66px;
+    // margin-bottom: 66px;
 
     &__list {
       text-decoration: none;
       list-style: none;
-      display: flex;
+      // display: flex;
+      padding: 66px 0;
+
+      li {
+        display: inline;
+      }
+
+      li+li:before {
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+      }
+
+      li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+      }
+
     }
 
-    &__backslash {
-        margin: 0 5px 0 5px;
-    }
+    // &__backslash {
+    //     margin: 0 5px 0 5px;
+    // }
 
     &__link > a {
       color: #636363 !important;
     }
 
-   
+      
     
   }
   

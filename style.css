@@ -893,20 +893,27 @@ h4 {
   font-size: 14px;
   line-height: 17px;
   color: #636363;
-  margin-top: 66px;
-  margin-bottom: 66px;
 }
 
 .bread_crumbs__list {
   text-decoration: none;
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  padding: 66px 0;
 }
 
-.bread_crumbs__backslash {
-  margin: 0 5px 0 5px;
+.bread_crumbs__list li {
+  display: inline;
+}
+
+.bread_crumbs__list li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+.bread_crumbs__list li a:hover {
+  color: #01447e;
+  text-decoration: underline;
 }
 
 .bread_crumbs__link > a {
