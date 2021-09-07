@@ -1072,7 +1072,7 @@ h4 {
   padding-left: 20px;
 }
 
-.numbers {
+.pagination {
   width: 100%;
   max-width: 283px;
   border: 1px solid #EBEBEB;
@@ -1087,14 +1087,14 @@ h4 {
   margin-bottom: 96px;
 }
 
-.numbers__pages {
+.pagination__pages {
   font-size: 16px;
   line-height: 19px;
   color: #C4C4C4;
   text-decoration: none;
 }
 
-.numbers__pages:hover {
+.pagination__pages:hover {
   color: #EF5B70;
 }
 
