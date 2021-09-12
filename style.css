@@ -475,8 +475,8 @@
 }
 
 .gallery__img_1 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/1girl.png);
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/1girl.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/index_gallery_forwoman.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/index_gallery_forwoman.png);
   width: 100%;
   max-width: 360px;
   margin: 65px 0 30px 0;
@@ -490,11 +490,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-size: cover;
 }
 
 .gallery__img_2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/2man.png);
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/2man.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/index_gallery_forman.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/index_gallery_forman.png);
   width: 100%;
   max-width: 360px;
   margin: 65px 0 30px 0;
@@ -508,11 +509,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-size: cover;
 }
 
 .gallery__img_3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/3kids.png);
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/3kids.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/index_gallery_forkids.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/index_gallery_forkids.png);
   width: 100%;
   max-width: 360px;
   margin: 65px 0 30px 0;
@@ -526,11 +528,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-size: cover;
 }
 
 .gallery__img_4 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/4fon.png);
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/4fon.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/index_gallery_accesories.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/index_gallery_accesories.png);
   width: 100%;
   height: 260px;
   display: -webkit-box;
@@ -542,6 +545,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-size: cover;
 }
 
 .items {
@@ -893,20 +897,27 @@ h4 {
   font-size: 14px;
   line-height: 17px;
   color: #636363;
-  margin-top: 66px;
-  margin-bottom: 66px;
 }
 
 .bread_crumbs__list {
   text-decoration: none;
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  padding: 66px 0;
 }
 
-.bread_crumbs__backslash {
-  margin: 0 5px 0 5px;
+.bread_crumbs__list li {
+  display: inline;
+}
+
+.bread_crumbs__list li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+.bread_crumbs__list li a:hover {
+  color: #01447e;
+  text-decoration: underline;
 }
 
 .bread_crumbs__link > a {
@@ -1065,7 +1076,7 @@ h4 {
   padding-left: 20px;
 }
 
-.numbers {
+.pagination {
   width: 100%;
   max-width: 283px;
   border: 1px solid #EBEBEB;
@@ -1080,14 +1091,14 @@ h4 {
   margin-bottom: 96px;
 }
 
-.numbers__pages {
+.pagination__pages {
   font-size: 16px;
   line-height: 19px;
   color: #C4C4C4;
   text-decoration: none;
 }
 
-.numbers__pages:hover {
+.pagination__pages:hover {
   color: #EF5B70;
 }
 
@@ -1542,28 +1553,32 @@ h4 {
     margin: 20px 16px 19px 14px;
     max-width: 230px;
     max-height: 167px;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/1_img_grad.png);
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/1_img_grad.png);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/index_gallery_forwoman.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/index_gallery_forwoman.png);
+    background-size: cover;
   }
   .gallery__img_2 {
     margin: 20px 14px 19px 0;
     max-width: 230px;
     max-height: 167px;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/2_img_grad.png);
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/2_img_grad.png);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/index_gallery_forman.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/index_gallery_forman.png);
+    background-size: cover;
   }
   .gallery__img_3 {
     margin: 20px 14px 19px 0;
     max-width: 230px;
     max-height: 167px;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/3_img_grad.png);
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/3_img_grad.png);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/index_gallery_forkids.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/index_gallery_forkids.png);
+    background-size: cover;
   }
   .gallery__img_4 {
     max-width: 734px;
     max-height: 116px;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/4_img_grad.png);
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/4_img_grad.png);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/index_gallery_accesories.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/index_gallery_accesories.png);
+    background-size: cover;
     margin-left: 14px;
     margin-right: 14px;
   }
@@ -1623,16 +1638,16 @@ h4 {
   }
   .gallery__img_1 {
     max-width: 343px;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/1girl.png);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/index_galery_forwoman_mobile.png);
   }
   .gallery__img_2 {
     max-width: 343px;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/2man.png);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/index_galery_forman_mobile.png);
     margin-left: 14px;
   }
   .gallery__img_3 {
     max-width: 343px;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/3kids.png);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(/img/index_galery_forkids_mobile.png);
     margin-left: 14px;
   }
   .gallery__img_4 {
